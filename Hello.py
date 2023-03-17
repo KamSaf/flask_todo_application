@@ -15,7 +15,7 @@ class Todo(db.Model):
 def index():
     #show all todos
     todo_list = Todo.query.all()
-    return render_template('base.html', todo_list)
+    return render_template('base.html', todo_list = todo_list)
 
 if __name__ == '__main__':
     with app.app_context():
