@@ -1,1 +1,1 @@
-# Flask TODO web application.
+# Simple Flask-powered To Do web application. 
